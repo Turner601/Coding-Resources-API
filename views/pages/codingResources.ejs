@@ -1,0 +1,22 @@
+<%- include('../partials/header'); %>
+
+<main class="main main-all-resources container text-center">
+    <h2 class="main-h2">
+        <%= name %>
+    </h2>
+    <section class="section section-resources">
+        <div class="row">
+            <% data.forEach(item => { %>
+                <div class="col-md-4">
+                    <figure class="figure figure-resource">
+                        <a href="/codingResources/<%= item.id %>">
+                            <figcaption class="figcaption"><%= item.description %></figcaption>
+                        </a>
+                    </figure>
+                </div>
+            <% }) %>
+        </div>
+    </section>
+</main>
+
+<%- include('../partials/footer'); %>

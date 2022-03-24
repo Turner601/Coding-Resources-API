@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #eaeae3;
+}
+
+/* Header */
+header {
+    padding: 25px 0;
+    background: black;
+}
+
+header h1 {
+    color: dodgerblue;
+}
+
+.nav-link {
+    color: red;
+    text-transform: capitalize;
+    font-size: 24px;
+}
+
+/* Main */
+.home-header {
+    padding: 25px 0;
+    text-transform: capitalize;
+}
+
+/* Footer */
+footer {
+    background: black;
+    color: dodgerblue;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+
+footer a {
+    text-decoration: none;
+    color: red;
+}
+
+/* All Resources Page */
+.main-all-resources h2 {
+    padding: 25px 0;
+}
+
+/* Single Resource Page */
+.main-single h2 {
+    padding: 25px 0;
+}
+
+.section-single figcaption {
+    padding: 5px;
+}
